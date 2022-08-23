@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    height: 100px;
+
+    /* background-color: rgb(0, 255, 0); */
+}
+
+.nav{
+    background-color: #131921;
+    color: #fff;  
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-belt{
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+.nav-left, .nav-fill, .nav-right{
+    height: 60px;
+}
+
+        /* NAV-LOGO */
+.nav-left{
+    width: 15vw;
+    /* background-color: blue; */
+}
+
+.nav-logo{
+    height: 60px;
+    /* background-color: aqua; */
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+        /* NAV-BLANK */
+.nav-fill{
+    width: 50vw;
+    /* background-color: hotpink; */
+}
+
+        /* NAV-TOOL */
+.nav-right{
+    width: 35vw;
+    /* background-color: grey; */
+
+    display: flex;
+}
+
+.nav-tools{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.nav-account{
+    width: 60%;
+
+    /* background-color: blue; */
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.nav-account span a{
+    color: goldenrod;
+}
+
+.nav-cart{
+    width: 40%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-cart img{
+    width: 48px;
+    height: 48px;
+}
+
+.nav-cart-total{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-cart-count{
+    font-weight: bold;
+    color: goldenrod;
+}
+
+/* NAV MAIN NAVIGATION */
+
+.nav-bar{
+    width: 100vw;
+    height: 40px;
+
+    background-color: #1c2633;
+
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    width: auto;
+    height: 40px;
+    text-align: center;
+    position: static;
+    float: left;
+    /* background-color: #3D3C3A; */
+    
+}
+
+.nav ul{
+    height: 100%;
+    float: left;
+
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    width: 13vw;
+
+    list-style: none;
+    display: inline-block;
+
+}
+
+.nav ul li:hover{
+    height: 70%;
+    /* background-color: aqua; */
+
+    border-bottom: 3px groove goldenrod;
+}
+
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+    color: #fff;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+}
+
+
+
+/* MAIN */
+
+
+        /* BANNER */
+.banner img{
+    max-width: 100%;
+    object-fit: contain;
+}
+        /* ITEM CATAGORIES */
+.catagories{
+    /* background-color: green; */
+    height: 500px;
+    background-color: aliceblue;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    border-bottom: solid grey 2px;
+}
+
+.catagories h2{
+    position: absolute;
+    top: 15px;
+    font-size: 40px;
+}
+
+.catagories a{
+    text-decoration: none;
+    color: black;
+}
+
+.display_container{
+    background-color: aliceblue;
+}
+
+.display_scroll{
+    display: flex;
+    background-color: rgb(148, 93, 187);
+    overflow-x: auto;
+    height: 100%;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display{
+    height: 300px;
+    min-width: 400px;
+    background-color: white;
+    /* border: goldenrod solid 5px; */
+    margin: 15px ;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px 1px grey;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display_title{
+    width: 100%;
+}
+
+.display_title h3{
+    text-align: center;
+}
+
+.display:hover{
+    box-shadow: 2px 3px 5px 1px goldenrod;
+}
+
+.display_item{
+    height: 80%;
+
+}
+
+/*--------------------- ITEM FOR SALE (SHOP)----------------- */
+
+.local_banner{
+    /* background-color: tomato; */
+    /* height: 100px; */
+}
+
+.local_banner img{
+    max-width: 100%;
+    object-fit: contain;
+    /* height: 74px; */
+}
+
+/* FOOTER */
+
+footer{
+    height: 300px;
+    background-color: #1c2633;
+    padding: 30px;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer_box1{
+    height: 100%;
+    width: 25%;
+    margin: 10px;
+}
+
+.footer_box2{
+    height: 100%;
+    width: 25%;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.footer_box3{
+    height: 100%;
+    width: 40%;
+    margin: 10px;
+}
+
+.body_space{
+    height: 800px;
+}
+
+        /* ITEMS */
+        .item_section{
+            width: 100%;
+            height: 500px;
+            background-color: #eee;
+            border-bottom: solid grey 2px;
+            float: left;
+        
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item_container{
+            width: 40%;
+            height: 400px;
+            background-color: white;
+            padding: 10px;
+        
+            border-radius: 15px;
+        }
+        
+        .item_container:hover{
+            Border: solid goldenrod 2px;
+        }
+        
+        .item_title{
+            width: 100%;
+            height: 10%;
+            background-color: goldenrod;
+            border-bottom: solid grey 2px;
+            border-radius: 15px 15px 0 0;
+            margin-bottom: 5px ;
+        
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item_title h2{
+            font-size: 18px;
+        }
+        
+        .item_pic{
+            width: 50%;
+            height: 90%;
+            background-color: white;
+            float: left;
+            border-radius: 0 0 0 15px;
+        
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item_pic img{
+            max-width: 80%;
+            max-width: 80%;
+            object-fit: contain;
+        }
+        
+        
+        
+        
+        .item_info_wrapper{
+            width: 50%;
+            height: 90%;
+            /* background-color: purple; */
+            float: left;
+        }
+        
+        
+        .item_desc{
+            width: 100%;
+            height: 90%;
+            /* background-color: forestgreen; */
+        }
+        
+        .item_delivery{
+            height: 20%;
+            width: 100%;
+            background-color: rgb(177, 177, 177);
+            border-radius: 15px;
+        
+            border-bottom: solid grey 2px;
+        
+            display: inline-flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+        /* ####item list#### */
+        .item_list{
+            /* background-color: blueviolet; */
+            height: 60%;
+        
+            border-bottom: solid grey 2px;
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item_list ul{
+            float: left;
+            
+        }
+        
+        .item_list ul li{
+            /* list-style: none; */
+            display: inline-block;
+            padding: 5px 10px 0px 10px;
+        }
+        
+        .item_list ul li a{
+            font-size: 20px;
+            display: block;
+            /* text-decoration: none; */
+            padding: 0 20px;
+            color: blue;
+            font-family: 'Trebuchet MS';
+            font-weight: bold;
+            background-color: goldenrod;
+        }
+        
+        /* ####item list#### */
+        
+        .item_stars_container{
+            width: 100%;
+            height: 15%;
+            /* background-color: hotpink; */
+        
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /* .item_stars{
+        
+        } */
+        
+        .item_price_wrapper{
+            width: 100%;
+            height: 10%;
+            /* background-color: aqua; */
+        }
+        
+        .item_price{
+            width: 50%;
+            height: 100%;
+            /* background-color: rgb(255,131,0); */
+            float: left;
+        
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item_price_disscount{
+            /* width: 50%;
+            height: 100%;
+            background-color: blueviolet;
+            float: left;
+            border-radius: 15px;
+            
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center; */
+        }
+
+        .item_price_disscount input{
+            height: 35px;
+            width: 120px;
+            border-radius: 4px;
+            background: rgb(255,131,0);
+            background: linear-gradient(220deg, rgba(255,131,0,1) 0%, rgba(218,165,32,1) 85%);
+        }
+        
